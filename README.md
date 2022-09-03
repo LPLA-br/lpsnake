@@ -3,17 +3,17 @@
 	Lpsnake jogo da cobrinha onde você deve alimetar-la e evitar
 	sua morte batendo na parede ou no próprio corpo.
 </p>
-## Compilação
-<p>
+## Compilação, execução e leitura do manual.
+```
 	no terminal:
 
-	<code>$gcc lpsnake.c -o lpsnake.out $(sdl2-config --cflags --libs)</code>
+	$gcc lpsnake.c -o lpsnake.out $(sdl2-config --cflags --libs)
 
 	para executar:
 
-	<code>$lpsnake.out</code>
+	$./lpsnake.out
 
 	leia o manual man pelo terminal:
 
-	<code>$man lpsnake.6</code>
-</p>
+	$man lpsnake.6
+```
